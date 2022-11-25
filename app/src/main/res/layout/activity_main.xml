@@ -83,7 +83,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="AC"
+                android:text="7"
                 android:textColor="@color/white"
                 ></Button>
 
@@ -91,7 +91,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="Log"
+                android:text="8"
                 android:textColor="@color/white"
                 ></Button>
 
@@ -99,7 +99,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="/"
+                android:text="9"
                 android:textColor="@color/white"
                 ></Button>
 
@@ -107,12 +107,89 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="*"
+                android:text="%"
                 android:textColor="@color/white"
                 ></Button>
 
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="4"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="5"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="6"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="-"
+                android:textColor="@color/white"
+                ></Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="7"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="8"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="9"
+                android:textColor="@color/white"
+                ></Button>
+
+            <Button android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:layout_marginRight="1pt"
+                android:text="%"
+                android:textColor="@color/white"
+                ></Button>
+
+        </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
