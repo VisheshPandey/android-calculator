@@ -31,7 +31,7 @@
 
     <TableLayout
         android:layout_width="422dp"
-        android:layout_height="350dp"
+        android:layout_height="200dp"
         android:layout_weight="1">
 
         <TableRow
