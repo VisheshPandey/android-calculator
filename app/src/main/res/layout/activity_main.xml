@@ -21,18 +21,17 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/white"
+        android:gravity="right|center"
         android:inputType="number"
         android:text="0"
         android:textColor="@color/black"
-        android:textSize="40pt"
-        android:gravity="right|center"
-        android:background="@color/teal_200"
-        android:layout_marginTop="100dp"
-        />
+        android:textSize="40pt" />
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="422dp"
+        android:layout_height="350dp"
         android:layout_weight="1">
 
         <TableRow
@@ -40,37 +39,37 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="1pt">
 
-        <Button android:layout_width="30pt"
-            android:layout_height="30pt"
-            android:layout_weight="1"
-            android:layout_marginRight="1pt"
-            android:text="AC"
-            android:textColor="@color/white"
-            ></Button>
-
-        <Button android:layout_width="30pt"
-            android:layout_height="30pt"
-            android:layout_weight="1"
-            android:layout_marginRight="1pt"
-            android:text="Log"
-            android:textColor="@color/white"
-            ></Button>
-
-        <Button android:layout_width="30pt"
-            android:layout_height="30pt"
-            android:layout_weight="1"
-            android:layout_marginRight="1pt"
-            android:text="/"
-            android:textColor="@color/white"
-            ></Button>
-
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
+                android:text="AC"
+                android:textColor="@color/white"></Button>
+
+            <Button
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1pt"
+                android:layout_weight="1"
+                android:text="Log"
+                android:textColor="@color/white"></Button>
+
+            <Button
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1pt"
+                android:layout_weight="1"
+                android:text="/"
+                android:textColor="@color/white"></Button>
+
+            <Button
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="*"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
         </TableRow>
 
@@ -79,37 +78,37 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="1pt">
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="7"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="8"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="9"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="%"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
         </TableRow>
 
@@ -118,37 +117,37 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="1pt">
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="4"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="5"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="6"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
+                android:layout_weight="1"
                 android:text="-"
-                android:textColor="@color/white"
-                ></Button>
+                android:textColor="@color/white"></Button>
 
         </TableRow>
 
@@ -157,50 +156,56 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="1pt">
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="7"
-                android:textColor="@color/white"
-                ></Button>
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="8"
-                android:textColor="@color/white"
-                ></Button>
+                android:layout_weight="1"
+                android:text="2"
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="9"
-                android:textColor="@color/white"
-                ></Button>
+                android:layout_weight="1"
+                android:text="3"
+                android:textColor="@color/white"></Button>
 
-            <Button android:layout_width="30pt"
+            <Button
+                android:layout_width="30pt"
                 android:layout_height="30pt"
-                android:layout_weight="1"
                 android:layout_marginRight="1pt"
-                android:text="%"
-                android:textColor="@color/white"
-                ></Button>
+                android:layout_weight="1"
+                android:text="+"
+                android:textColor="@color/white"></Button>
 
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
     </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:layout_marginRight="1pt"
+            android:text="Button"
+            android:textColor="@color/white"
+            ></Button>
+
+
+    </LinearLayout>
+
 </LinearLayout>
